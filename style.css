@@ -1,0 +1,23 @@
+/*
+Theme Name:   WPB Child Theme
+Theme URI:    https://www.wpbeginner.com/
+Description:  raacuity
+Author:       WPBeginner
+Author URI:   https://www.wpbeginner.com
+Template:     raacuity
+Version:      1.0.1
+Text Domain:  raacuity
+*/
+@import url("../raacuity/style.css");
+
+
+    .text-container{
+        color:red;
+    }
+.h2 {
+    color:red;
+}
+
+.wpadminbar {
+    background-color: red;
+}

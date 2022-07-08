@@ -1,23 +1,13 @@
 /*
 Theme Name:   WPB Child Theme
 Theme URI:    https://www.wpbeginner.com/
-Description:  raacuity
+Description:  NeveChild
 Author:       WPMiguelMaya
 Author URI:   https://www.wpbeginner.com
-Template:     raacuity
+Template:     neve
 Version:      1.0.1
-Text Domain:  raacuity
+Text Domain:  NeveChild
 */
-@import url("../raacuity/style.css");
+@import url("../neve/style.css");
 
 
-    .text-container{
-        color:red;
-    }
-.h2 {
-    color:red;
-}
-
-.wpadminbar {
-    background-color: red;
-}

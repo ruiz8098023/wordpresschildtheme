@@ -247,14 +247,37 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	display: none;
 }
 
+.nv-card-content-wrapper a.button,
 .woocommerce-shop a.button {
 	width: 100%;
 	background: #F98B2A!important;
 	transition: .3s;
+
 }
 
+.nv-card-content-wrapper a.button:hover,
 .woocommerce-shop a.button:hover {
 	background: #FA7703!important;
+	transition: .3s;
+}
+
+.woocommerce .woocommerce-message, 
+.woocommerce-page .woocommerce-message {
+    border-radius: 0!important;
+    background: #00549A!important;
+}
+
+.woocommerce .woocommerce-message a.button  {
+	border-radius: 0!important;
+	background: #00549A!important;
+	border: 3px solid #fff!important;
+	color: #fff!important;
+	transition: .3s;
+}
+
+.woocommerce .woocommerce-message a.button:hover {
+	background: #fff!important;
+	color: #00549A!important;
 	transition: .3s;
 }
 

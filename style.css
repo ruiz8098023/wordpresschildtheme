@@ -11,7 +11,7 @@ Text Domain:  NeveChild
 @import url("../neve/style.css");
 
 
-/* seeing if these words appear
+/* seeing if this shows up on wordpress
  * for links color*/
 a{color:white}
 
@@ -33,7 +33,7 @@ a{color:white}
 header .container .row {
     padding: 20px 0 0 45px;
 }
-header{width:100%px;}
+header{width:100px;}
 
 header .container .row h2 {
     padding: 200px 0 70px 0;
@@ -55,6 +55,8 @@ header .container .row h2 a{
 	margin-right:500px;
 }
 
+
+/*Home Page*/
 
 
 
@@ -247,4 +249,8 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 .woocommerce-page .single-page-container {
 		width: 1320px;
 	}
+}
+
+h1 {
+	color: blue;
 }

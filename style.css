@@ -250,3 +250,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 		width: 1320px;
 	}
 }
+
+h1 {
+	color: blue;
+}

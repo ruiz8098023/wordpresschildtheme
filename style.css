@@ -11,3 +11,240 @@ Text Domain:  NeveChild
 @import url("../neve/style.css");
 
 
+/*
+ * for links color*/
+a{color:white}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* FEATURED IMAGE HERO STYLING */
+
+
+
+/*
+ * hero img
+ * */
+
+header .container .row {
+    padding: 20px 0 0 45px;
+}
+header{width:100%px;}
+
+header .container .row h2 {
+    padding: 200px 0 70px 0;
+
+}
+a{color:white;
+}
+
+li.page_item{display:inline-flex;
+padding:10px;
+margin-top:20px;}
+
+
+
+header .container .row h2 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 75px;
+	margin-right:500px;
+}
+
+
+
+
+/*Contact Page*/
+.contact-container {
+	padding:0;
+}
+
+.contact-container .col {
+	padding: 0;
+}
+
+.contact-column-left {
+	padding: 16px;
+}
+
+.contact-form {
+	max-width: 350px;
+}
+
+.contact-top-body {
+	margin-bottom: 0;
+}
+
+.contact-column-left .wp-container-4,
+.contact-column-left .wp-container-15,
+.contact-column-left .wp-container-25 {
+	gap: .75em;
+}
+
+.wp-container-36 {
+	gap: 0!important;
+}
+
+.contact-column {
+	padding-bottom: 50px;
+}
+
+.contact-column-left .wp-block-image,
+.dots .wp-block-image{
+	margin: 0;
+}
+
+.contact-top-body {
+	padding-bottom: 20px;
+}
+
+.contact-column .wp-container-34 {
+	justify-content: center
+}
+
+.contact-step-number,
+.contact-step-icon {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, .16));
+	width: 100%;
+}
+
+.contact-column-left .wp-block-columns {
+	margin: .5em 0;
+}
+
+.contact-column-left p {
+	margin-bottom: 0;
+}
+
+.contact-column h2 {
+	margin-bottom: 12px;
+}
+
+.contact-step-text h4 {
+	margin-bottom: 10px;
+}
+
+.contact-form div.wpforms-container-full .wpforms-form input[type=date], div.wpforms-container-full .wpforms-form input[type=datetime], div.wpforms-container-full .wpforms-form input[type=datetime-local], div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=month], div.wpforms-container-full .wpforms-form input[type=number], div.wpforms-container-full .wpforms-form input[type=password], div.wpforms-container-full .wpforms-form input[type=range], div.wpforms-container-full .wpforms-form input[type=search], div.wpforms-container-full .wpforms-form input[type=tel], div.wpforms-container-full .wpforms-form input[type=text], div.wpforms-container-full .wpforms-form input[type=time], div.wpforms-container-full .wpforms-form input[type=url], div.wpforms-container-full .wpforms-form input[type=week], div.wpforms-container-full .wpforms-form select, div.wpforms-container-full .wpforms-form textarea {
+	background-color: #021B50;
+	border-radius: 0;
+	color: #F98B2A;
+	border-bottom: 1px solid #F98B2A;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-family: raleway;
+}
+
+.contact-form div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	background-color: #F98B2A;
+  border: none;
+  color: #FFFFFF;
+  font-size: .9em;
+  padding: 8px 0;
+  width: 100%;
+  font-family: raleway;
+	transition: .3s;
+	margin-top: 40px;
+}
+
+.contact-form div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+	background-color: #FA7703;
+  border: none;
+  color: #FFFFFF;
+  font-size: .9em;
+  padding: 8px 0;
+  width: 100%;
+  font-family: raleway;
+	transition: .3s;
+	margin-top: 40px;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+	max-width: 100%!important;
+}
+
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+	height: 38px!important;
+}
+
+.contact-column {
+	padding: 80px 50px;
+}
+
+.contact-step-number img,
+.contact-step-icon img {
+	max-width: 80%;
+}
+
+@media (min-width: 781px) {
+	.contact-step-text,
+	.contact-top-body,
+	.contact-column h2 {
+		text-align: left;
+	}
+}
+
+/*Product Page*/
+.product_title {
+	font-size: 36px;
+}
+
+.woocommerce-product-details__short-description p {
+	font-size: 16px;
+}
+
+.woocommerce-page .nv-index-posts a,
+.woocommerce-page .single-page-container a {
+	color: #FF8500;
+	transition: .3s;
+}
+
+.woocommerce-page .nv-index-posts a:hover,
+.woocommerce-page .single-page-container a:hover {
+	color: #02559B;
+	transition: .3s;
+}
+
+.woocommerce-page .nv-index-posts,
+.woocommerce-page .single-page-container{
+	width: 100%
+}
+
+@media (min-width: 576px) {
+	.woocommerce-page .nv-index-posts,
+.woocommerce-page .single-page-container {
+		width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.woocommerce-page .nv-index-posts,
+.woocommerce-page .single-page-container {
+		width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.woocommerce-page .nv-index-posts,
+.woocommerce-page .single-page-container {
+		width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.woocommerce-page .nv-index-posts,
+.woocommerce-page .single-page-container {
+		width: 1140px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.woocommerce-page .nv-index-posts,
+.woocommerce-page .single-page-container {
+		width: 1320px;
+	}
+}

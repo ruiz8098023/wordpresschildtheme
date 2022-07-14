@@ -242,6 +242,14 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	transition: .3s;
 }
 
+body.woocommerce-account nav>ul {
+	flex-direction: column;
+}
+
+body.woocommerce-account .woocommerce-MyAccount-content {
+	float: right!important;
+}
+
 /************* Shop Page ***************/
 .woocommerce-shop #secondary {
 	display: none;

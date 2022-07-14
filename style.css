@@ -60,7 +60,7 @@ header .container .row h2 a{
 
 
 
-/*Contact Page*/
+/************** Contact Page ****************/
 .contact-container {
 	padding:0;
 }
@@ -143,24 +143,24 @@ header .container .row h2 a{
 
 .contact-form div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
 	background-color: #F98B2A;
-  border: none;
-  color: #FFFFFF;
-  font-size: .9em;
-  padding: 8px 0;
-  width: 100%;
-  font-family: raleway;
+	border: none;
+	color: #FFFFFF;
+	font-size: .9em;
+	padding: 8px 0;
+	width: 100%;
+	font-family: raleway;
 	transition: .3s;
 	margin-top: 40px;
 }
 
 .contact-form div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
 	background-color: #FA7703;
-  border: none;
-  color: #FFFFFF;
-  font-size: .9em;
-  padding: 8px 0;
-  width: 100%;
-  font-family: raleway;
+	border: none;
+	color: #FFFFFF;
+	font-size: .9em;
+	padding: 8px 0;
+	width: 100%;
+	font-family: raleway;
 	transition: .3s;
 	margin-top: 40px;
 }
@@ -190,7 +190,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	}
 }
 
-/*Product Page*/
+/************** Product Page ****************/
 .product_title {
 	font-size: 36px;
 }
@@ -207,7 +207,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .woocommerce-page .nv-index-posts a:hover,
 .woocommerce-page .single-page-container a:hover {
-	color: #02559B;
+	color: #FA7703;
 	transition: .3s;
 }
 
@@ -216,8 +216,83 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	width: 100%
 }
 
+.woocommerce-page div.product div.summary {
+	max-width: 360px;
+}
+
+.woocommerce button.button, 
+.woocommerce button.button.alt {
+	background: #F98B2A!important;
+	transition: .3s;
+}
+
+.woocommerce button.button:hover, 
+.woocommerce button.button.alt:hover {
+	background: #FA7703!important;
+	transition: .3s;
+}
+
+.woocommerce .woocommerce-breadcrumb a a {
+	color: #00549A;
+	transition: .3s;
+}
+
+.woocommerce .woocommerce-breadcrumb a:hover {
+	color: #021B50;
+	transition: .3s;
+}
+
+body.woocommerce-account nav>ul {
+	flex-direction: column;
+}
+
+body.woocommerce-account .woocommerce-MyAccount-content {
+	float: right!important;
+}
+
+/************* Shop Page ***************/
+.woocommerce-shop #secondary {
+	display: none;
+}
+
+.nv-card-content-wrapper a.button,
+.woocommerce-shop a.button {
+	width: 100%;
+	background: #F98B2A!important;
+	transition: .3s;
+
+}
+
+.nv-card-content-wrapper a.button:hover,
+.woocommerce-shop a.button:hover {
+	background: #FA7703!important;
+	transition: .3s;
+}
+
+.woocommerce .woocommerce-message, 
+.woocommerce-page .woocommerce-message {
+    border-radius: 0!important;
+    background: #00549A!important;
+}
+
+.woocommerce .woocommerce-message a.button  {
+	border-radius: 0!important;
+	background: #00549A!important;
+	border: 3px solid #fff!important;
+	color: #fff!important;
+	transition: .3s;
+}
+
+.woocommerce .woocommerce-message a.button:hover {
+	background: #fff!important;
+	color: #00549A!important;
+	transition: .3s;
+}
+
+/******** Woo Commerce Pages ***********/
+
 @media (min-width: 576px) {
-	.woocommerce-page .nv-index-posts,
+.woocommerce-page .nv-index-posts,
 .woocommerce-page .single-page-container {
 		width: 540px;
 	}
@@ -225,28 +300,28 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 @media (min-width: 768px) {
 	.woocommerce-page .nv-index-posts,
-.woocommerce-page .single-page-container {
+	.woocommerce-page .single-page-container {
 		width: 720px;
 	}
 }
 
 @media (min-width: 992px) {
 	.woocommerce-page .nv-index-posts,
-.woocommerce-page .single-page-container {
+	.woocommerce-page .single-page-container {
 		width: 960px;
 	}
 }
 
 @media (min-width: 1200px) {
 	.woocommerce-page .nv-index-posts,
-.woocommerce-page .single-page-container {
+	.woocommerce-page .single-page-container {
 		width: 1140px;
 	}
 }
 
 @media (min-width: 1400px) {
 	.woocommerce-page .nv-index-posts,
-.woocommerce-page .single-page-container {
+	.woocommerce-page .single-page-container {
 		width: 1320px;
 	}
 }

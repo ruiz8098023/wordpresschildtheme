@@ -222,14 +222,17 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 
 .woocommerce button.button, 
 .woocommerce button.button.alt {
-	background: #F98B2A!important;
+	background: #FFC619!important;
 	transition: .3s;
+	color: #000!important;
 }
 
 .woocommerce button.button:hover, 
 .woocommerce button.button.alt:hover {
-	background: #FA7703!important;
+	background: #ecb203!important;
 	transition: .3s;
+	color: #000!important;
+	
 }
 
 .woocommerce .woocommerce-breadcrumb a a {
@@ -251,6 +254,10 @@ body.woocommerce-account .woocommerce-MyAccount-content {
 }
 
 /************* Shop Page ***************/
+.nv-sidebar-toggle {
+	display: none;
+}
+
 .woocommerce-shop #secondary {
 	display: none;
 }
@@ -258,14 +265,16 @@ body.woocommerce-account .woocommerce-MyAccount-content {
 .nv-card-content-wrapper a.button,
 .woocommerce-shop a.button {
 	width: 100%;
-	background: #F98B2A!important;
+	background: #FFC619!important;
+	color: #000!important;
 	transition: .3s;
 
 }
 
 .nv-card-content-wrapper a.button:hover,
 .woocommerce-shop a.button:hover {
-	background: #FA7703!important;
+	background: #ecb203!important;
+	color: #000!important;
 	transition: .3s;
 }
 
@@ -287,6 +296,20 @@ body.woocommerce-account .woocommerce-MyAccount-content {
 	background: #fff!important;
 	color: #00549A!important;
 	transition: .3s;
+}
+
+.woocommerce a.button,
+.woocommerce button.button, 
+.woocommerce button.button.alt {
+	border-radius: 0!important;
+}
+
+form input:read-write {
+	border-radius: 0!important;
+}
+
+.woocommerce table.cart td.actions .input-text#coupon_code+.button {
+	border: none!important;
 }
 
 /******** Woo Commerce Pages ***********/

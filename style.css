@@ -249,14 +249,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	transition: .3s;
 }
 
-body.woocommerce-account nav>ul {
-	flex-direction: column;
-}
-
-body.woocommerce-account .woocommerce-MyAccount-content {
-	float: right!important;
-}
-
+  
 /************* Shop Page ***************/
 .nv-sidebar-toggle {
 	display: none;
@@ -354,6 +347,42 @@ form select option {
 	transition: .3s;
 }
 
+/******** My Account Page ***********/
+
+body.woocommerce-account nav>ul .is-active a {
+	font-weight: 700!important;
+	color: #000!important;
+	opacity: 1;
+}
+body.woocommerce-account nav>ul .is-active a:hover {
+	color: #F98B2A!important;
+}
+
+.woocommerce-MyAccount-navigation-link a {
+	font-weight: 700!important;
+	color:#000!important;
+	opacity: .5;
+}
+
+.woocommerce-MyAccount-navigation-link a:hover {
+	color:#F98B2A!important;
+}
+
+.entry-content a:not([class]) {
+	--linkdeco: none!important;
+}
+
+.nv-content-wrap li {
+	border-bottom: 1px solid rgb(180, 179, 179);
+	justify-content: space-around;
+	padding: 20px 0!important;
+	margin: 0!important;
+}
+
+.myaccount-menu-icon .svg-inline--fa {
+	margin-right: 8px;
+}
+
 /******** Woo Commerce Pages ***********/
 
 @media (min-width: 576px) {
@@ -367,6 +396,17 @@ form select option {
 	.woocommerce-page .nv-index-posts,
 	.woocommerce-page .single-page-container {
 		width: 720px;
+	}
+
+	body.woocommerce-account nav>ul {
+		border-bottom: 1px solid rgb(180, 179, 179);
+		justify-content: space-around;
+		padding-bottom: 20px!important;
+	}
+
+	.nv-content-wrap li {
+		border-bottom: none!important;
+		padding: none!important;
 	}
 }
 

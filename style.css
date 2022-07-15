@@ -351,7 +351,7 @@ body.woocommerce-account nav>ul .is-active a {
 	opacity: 1;
 }
 body.woocommerce-account nav>ul .is-active a:hover {
-	color: #F98B2A!important;
+	color: #0A98FA!important;
 }
 
 .woocommerce-MyAccount-navigation-link a {
@@ -361,7 +361,7 @@ body.woocommerce-account nav>ul .is-active a:hover {
 }
 
 .woocommerce-MyAccount-navigation-link a:hover {
-	color:#F98B2A!important;
+	color:#0A98FA!important;
 }
 
 .entry-content a:not([class]) {
@@ -380,6 +380,10 @@ body.woocommerce-account nav>ul .is-active a:hover {
 }
 
 /******** Woo Commerce Pages ***********/
+.woocommerce-page h1 {
+	font-size: 30px;
+}
+
 
 @media (min-width: 576px) {
 .woocommerce-page .nv-index-posts,

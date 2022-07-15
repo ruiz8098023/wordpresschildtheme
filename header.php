@@ -10,6 +10,8 @@
 
     <title><?php bloginfo('name'); ?></title>
 
+    <script src="https://kit.fontawesome.com/1c337c1bea.js" crossorigin="anonymous"></script>
+
     <?php wp_head(); ?>
 </head>
 

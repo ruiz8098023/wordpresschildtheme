@@ -65,6 +65,10 @@ header .container .row h2 a{
 	padding:0;
 }
 
+.contact .wp-block-columns {
+	margin-bottom: 0!important;
+}
+
 .contact-container .col {
 	padding: 0;
 }
@@ -182,16 +186,13 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	max-width: 80%;
 }
 
-.contact-container .wp-block-columns {
-	margin-bottom: 0;
-}
-
 @media (min-width: 781px) {
 	.contact-step-text,
 	.contact-top-body,
 	.contact-column h2 {
 		text-align: left;
 	}
+
 }
 
 /************** Product Page ****************/
@@ -355,7 +356,7 @@ body.woocommerce-account nav>ul .is-active a {
 	opacity: 1;
 }
 body.woocommerce-account nav>ul .is-active a:hover {
-	color: #F98B2A!important;
+	color: #0A98FA!important;
 }
 
 .woocommerce-MyAccount-navigation-link a {
@@ -365,7 +366,7 @@ body.woocommerce-account nav>ul .is-active a:hover {
 }
 
 .woocommerce-MyAccount-navigation-link a:hover {
-	color:#F98B2A!important;
+	color:#0A98FA!important;
 }
 
 .entry-content a:not([class]) {
@@ -384,6 +385,9 @@ body.woocommerce-account nav>ul .is-active a:hover {
 }
 
 /******** Woo Commerce Pages ***********/
+.woocommerce-page h1 {
+	font-size: 30px;
+}
 
 @media (min-width: 576px) {
 .woocommerce-page .nv-index-posts,

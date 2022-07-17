@@ -256,6 +256,11 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	color: #000!important;
 }
 
+.woocommerce table.shop_table.cart tr:last-child .button {
+	--secondarybtnpadding: 10px 40px!important;
+    --primarybtnpadding: 13px 40px!important;
+}
+
 .woocommerce button.button:hover, 
 .woocommerce button.button.alt:hover {
 	background: #ecb203!important;
@@ -339,7 +344,7 @@ form input:read-write {
 }
 
 .woocommerce .cart_totals .wc-proceed-to-checkout {
-    --primarybtnpadding: 18px 40px!important;
+    --primarybtnpadding: 13px 40px!important;
 }
 
 form select {
@@ -373,6 +378,10 @@ form select option {
 }
 
 /******** My Account Page ***********/
+
+.woocommerce-account .nv-single-page-wrap {
+	margin: 0 15px 60px;
+}
 
 body.woocommerce-account nav>ul .is-active a {
 	font-weight: 700!important;

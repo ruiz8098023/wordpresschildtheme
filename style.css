@@ -328,16 +328,6 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	transition: .3s;
 }
 
-/* .woocommerce a.button,
-.woocommerce button.button, 
-.woocommerce button.button.alt {
-	border-radius: 0!important;
-}
-
-form input:read-write {
-	border-radius: 0!important;
-} */
-
 .woocommerce table.cart td.actions .input-text#coupon_code+.button {
 	border-color: #FFC619!important;
 }

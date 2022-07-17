@@ -210,6 +210,15 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	max-width: 80%;
 }
 
+.wp-block-cover p:not(.has-text-color) {
+    color: #F98B2A!important;
+}
+
+.wpforms-confirmation-container-full, div[submit-success]>.wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+    background: #021B50!important;
+    border: none!important;
+}
+
 @media (min-width: 781px) {
 	.contact-step-text,
 	.contact-top-body,

@@ -345,6 +345,10 @@ form select option {
 
 /******** My Account Page ***********/
 
+.woocommerce-account .nv-single-page-wrap {
+	margin: 0 15px 60px;
+}
+
 body.woocommerce-account nav>ul .is-active a {
 	font-weight: 700!important;
 	color: #000!important;

@@ -56,13 +56,41 @@ header .container .row h2 a{
 }
 
 
-/*Home Page*/
+/*About page*/
+figure.wp-block-image.size-full {
+    border-radius: 50%;
+		padding: 50px;
+}
+figcaption {
+   text-align: center;
+	 font-weight: bold;
+	 font-size: 1.3em;
+	 color:#069AFF;
+}
+
+
+
+/*footer*/
+.blurb{
+	font-size: 0.8em;
+	line-height: normal;
+  padding-right: 50px;
+	margin: auto;
+}
+.footer-menu-links{
+	 column-count: 3;
+	 font-size: 0.8em;
+}
 
 
 
 /************** Contact Page ****************/
 .contact-container {
 	padding:0;
+}
+
+.contact .wp-block-columns {
+	margin-bottom: 0!important;
 }
 
 .contact-container .col {
@@ -188,6 +216,7 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
 	.contact-column h2 {
 		text-align: left;
 	}
+
 }
 
 /************** Product Page ****************/
@@ -387,7 +416,6 @@ body.woocommerce-account nav>ul .is-active a:hover {
 .woocommerce-page h1 {
 	font-size: 30px;
 }
-
 
 @media (min-width: 576px) {
 .woocommerce-page .nv-index-posts,

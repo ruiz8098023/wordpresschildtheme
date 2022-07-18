@@ -20,7 +20,7 @@ $custom_image_header = array(
     'width' => 500,
     'height' => 500,
     'uploads' => true
-);
+); 
 
 add_theme_support('custom-header', $custom_image_header);
 
